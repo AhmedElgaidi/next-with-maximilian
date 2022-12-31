@@ -8,6 +8,7 @@ export default function Blog() {
       <h1>Certain Blog Page</h1>
 
       <h2>{router.query.slug} blog</h2>
+      <p>From [slug].tsx file</p>
     </>
   );
 }

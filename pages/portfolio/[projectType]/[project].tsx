@@ -2,7 +2,6 @@ import { useRouter } from "next/router";
 
 export default function Project() {
   const router = useRouter();
-  console.log(router.query);
   return (
     <>
       <h1>Certain Project</h1>
